@@ -1,5 +1,6 @@
 # MedAI (FastAPI + React)
-A minimal full-stack scaffold for a medical platform with a left-hand features panel and an initial feature: AI Medical Assistant. The assistant is wired end-to-end and currently returns a stubbed response of `hello` to any user input. Swap the stub later with a real LLM call.
+A minimal full-stack POC for a medical platform with an initial feature: AI Diagnosis Assistant for Doctors. The assistant is wired end-to-end through a RAG pipeline — AWS Bedrock (Claude 3.5 Sonnet) for clinical reasoning, OpenSearch for retrieving relevant medical literature, and Amazon S3 for storing source documents. It currently returns a stubbed differential-diagnosis response to any physician input. Set ASSISTANT_MODE=live in .env to activate the full Bedrock → OpenSearch → S3 pipeline.
+
 
 ## Project Structure
 
@@ -55,4 +56,4 @@ Credentials: use standard AWS methods (env vars, `~/.aws/credentials`, or IAM ro
 
 
 Authors : 
-Saif Eddine GHRIBI - Med Amine Ben Salem
+Med Amine Ben Salem - Saif Eddine Ghribi
