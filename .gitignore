@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Env
+.env
+.env.*
+
+
+# Build artifacts
+medai-backend.zip
+frontend/awscliv2.zip
+frontend/aws/

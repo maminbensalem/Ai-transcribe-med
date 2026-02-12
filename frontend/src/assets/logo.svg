@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#g)"/>
+  <!-- Medical cross -->
+  <path d="M34 18h-4v12H18v4h12v12h4V34h12v-4H34V18z" fill="white" opacity="0.95"/>
+  <!-- Heartbeat line -->
+  <path d="M10 40c6 0 8-6 11-6 3 0 4 8 6 8s3-12 6-12 4 10 7 10 5-4 14-4" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+</svg>
+
